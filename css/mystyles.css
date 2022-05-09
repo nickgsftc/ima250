@@ -33,7 +33,7 @@
 
 /* Let's style our hero section */
 .hero {
-    background: url(/portfolio/images/background.jpg) no-repeat top left;
+    background: url(/images/background.jpg) no-repeat top left;
     background-size: cover;
     color: white;
     height: 400px;
@@ -75,7 +75,7 @@
 }
 
 #about {
-    background: url(/portfolio/images/background.jpg) no-repeat top left;
+    background: url(/images/background.jpg) no-repeat top left;
     background-size: cover;
 }
 
