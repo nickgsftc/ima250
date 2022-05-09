@@ -1,0 +1,98 @@
+.header {
+    background-color: #505050;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    margin-left: auto;
+}
+
+.header li {
+    list-style: none;
+}
+
+
+.header a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    padding: 50px;
+    border: 5px solid #505050;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header a:hover {
+    border: 5px solid white;
+}
+
+/* Let's style our hero section */
+.hero {
+    background: url(/portfolio/images/background.jpg) no-repeat top left;
+    background-size: cover;
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 5.5em;
+}
+
+.hero h2 {
+    font-size: 2.3em;
+    color: #eeeeee;
+}
+
+.highlights {
+    display: grid;
+    grid-template-columns: 1fr; /*Now we are mobile first.*/ 
+    margin: 50px;
+}
+
+.highlights div {
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    margin: 50px;
+    font-size: 2em;
+    color: white;
+ 
+}
+
+.highlights div:hover {
+    border: 10px solid black;
+}
+
+#about {
+    background: url(/portfolio/images/background.jpg) no-repeat top left;
+    background-size: cover;
+}
+
+.footer {
+    min-height: 200px;
+    background-color: #505050;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+}
+
+/* Apply media queries */
+@media only screen and (min-width: 1200px) {
+
+    .highlights {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+
+}
